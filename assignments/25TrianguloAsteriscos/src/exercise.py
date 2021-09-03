@@ -1,3 +1,4 @@
+import sys
 def main():
     height = int(input("Enter triangle height: "))
     #escribe tu código abajo de esta línea
@@ -6,12 +7,12 @@ def main():
             n=0
             k=height
             while k>i:
-                print(' ',end='')
+                sys.stdout.write(' ')
                 k=k-1
             else: 
 
                 while n<i:
-                    print('*',end='')
+                    sys.stdout.write('*')
                     n=n+1
             print('')
         pass
