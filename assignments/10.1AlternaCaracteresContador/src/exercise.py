@@ -1,6 +1,6 @@
 def main():
   #escribe tu código abajo de esta línea
-    n=int(input(''))
+    n=int(input('ingresa un numero'))
     num=0
 
     while num<n:
@@ -12,6 +12,7 @@ def main():
             sig='%'
 
         print(str(num)+'-'+str(sig))
+
 
 
 
