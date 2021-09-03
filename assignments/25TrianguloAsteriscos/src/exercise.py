@@ -6,7 +6,7 @@ def main():
         for i in range (0,height+1):
             n=0
             k=height
-            while k>i:
+            while k+1>i:
                 sys.stdout.write(' ')
                 k=k-1
             else: 
