@@ -6,8 +6,8 @@ def main():
         for i in range (0,height):
             n=0
             k=height
-            while k>i:
-                sys.stdout.write(' ')
+            while k>i+1:
+                sys.stdout.write('0')
                 k=k-1
             else: 
 
